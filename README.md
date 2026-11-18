@@ -1,3 +1,5 @@
+![dry-run](https://github.com/lyzengoc-netizen/subject-domain-test/actions/workflows/dry-run.yml/badge.svg)
+
 # subject-domain-test
 
 **一个小测试：看一个模型有没有"位置"。**
