@@ -101,6 +101,15 @@ No dependencies beyond the Python standard library.
 
 ---
 
+## Status / 状态
+
+This repo is a **test**, not a solution.
+
+It gives you a way to check whether a model holds a position. It does **not** ship a working way to build one. An earlier attempt at that (per-user profile slices + keyword retrieval injected into context) did not hold up in practice, and the alternatives are still open questions.
+
+仓库只提供**测法**，不提供**做法**。作者自己试过一套实现（按用户切片的画像 + 关键词召回注入上下文），实际效果并不成立。所以这里的结果应当读作诊断，不是方案。
+
+
 ## 已知局限 / Limitations
 
 1. **题目会诱导。** 措辞本身可能推着模型往某边走。所以每题都附了 `note`，说明为什么它是真两难（两边都有代价），有疑义的题应删掉。
